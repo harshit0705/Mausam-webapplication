@@ -18,11 +18,11 @@ export default function Navbar(props) {
     <div>
       <div className={Nav.main_container}>
         <div className={Nav.name}>
-          <img src="/logo.png" alt="logo" />{" "}
+          <img src="./logo.png" alt="logo" />{" "}
         </div>
         <div className="input-group mb-3 vh-30" id={Nav.boot}>
           <input
-          spellcheck="false"
+          spellCheck="false"
             ref={inputRef}
             onKeyDown={searchit}
             type="text"
