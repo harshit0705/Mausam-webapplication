@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Navbar.module.css";
-import icon from "../images/logo123.png"
+
 
 
 export default function Navbar(props) {
@@ -20,7 +20,7 @@ export default function Navbar(props) {
     <div>
       <div className={Nav.main_container}>
         <div className={Nav.name}>
-          <img src={icon} alt="logo" />
+          <img src="logo123.png" alt="logo" />
         </div>
         <div className="input-group mb-3 vh-30" id={Nav.boot}>
           <input
